@@ -86,3 +86,20 @@ let  asiancities =["tokyo","mumbai","singapore","beijing"];
 let worldCities = europenCities.concat(asiancities);//here we are merging the two arrays
 console.log(worldCities);
 console.log(typeof (worldCities));
+
+//_________________________________________________________________________
+
+let teaMenu =["masala chai","oolong tea","green tea","early grey"];
+let menuLength = teaMenu.length;
+console.log(menuLength);
+//_________________________________________________________________________
+
+let citiesBucketList=["kyoto","London","Cape Town","Vancouver"];
+let isLondonInList=citiesBucketList.includes("London");
+console.log(isLondonInList);
+//include method will return true if the value is present in the array
+//include case sensitive
+
+console.log(isLondonInList);
+
+//if you want to more info just go on include press cntrl+ click on the include it will take you to the mdn docs
