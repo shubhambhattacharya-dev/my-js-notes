@@ -78,3 +78,11 @@ let hardCopyCities = [...topCities];// here we are copying the value of the topC
 topCities.pop();
 console.log(hardCopyCities);
 console.log(topCities);
+// merge
+
+const europenCities=["Paris","LOndon","berlin"];
+let  asiancities =["tokyo","mumbai","singapore","beijing"];
+// var worldCities = europenCities+" "+asiancities;//here are not merging the two arrays we are just adding the two arrays as a string
+let worldCities = europenCities.concat(asiancities);//here we are merging the two arrays
+console.log(worldCities);
+console.log(typeof (worldCities));
