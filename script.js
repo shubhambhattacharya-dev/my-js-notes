@@ -1,3 +1,1 @@
-for(let i=1;i<=100;i++){
-    console.log("shubham");
-}
+document.querySelector("h1").innerHTML="Good Bye";
